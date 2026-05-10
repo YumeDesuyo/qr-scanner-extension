@@ -56,6 +56,35 @@ button:hover {
   margin-top: 4px;
 }
 
+#clearHistoryBtn {
+  width: 100%;
+  margin-top: 10px;
+  background: #d93025;
+}
+
+#clearHistoryBtn:hover {
+  opacity: 0.9;
+}
+
+
+.top-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.top-bar button {
+  flex: 1;
+}
+
+.history-title {
+  flex: 2;
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+}
 
 .history-item {
   background: white;
