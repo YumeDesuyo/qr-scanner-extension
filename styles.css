@@ -65,3 +65,37 @@ button:hover {
 #clearHistoryBtn:hover {
   opacity: 0.9;
 }
+
+
+.top-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.top-bar button {
+  flex: 1;
+}
+
+.history-title {
+  flex: 2;
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.history-item {
+  background: white;
+  padding: 8px;
+  border-radius: 6px;
+  margin-bottom: 8px;
+  border: 1px solid #ddd;
+}
+
+.history-time {
+  font-size: 12px;
+  color: gray;
+  margin-top: 4px;
+}
