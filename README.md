@@ -23,19 +23,3 @@
 - 基于 Chrome Manifest V3
 
 ---
-
-# 项目结构
-
-```text
-qr-scanner-extension/
-│
-├── manifest.json
-├── background.js
-├── popup.html
-├── popup.js
-├── styles.css
-├── jsqr.js
-├── icons/
-│   ├── icon16.png
-│   ├── icon48.png
-│   └── icon128.png
